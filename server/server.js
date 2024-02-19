@@ -44,7 +44,7 @@ app.post("/api/story-sharing",(req, res)=>{
         experience.save();
         res.json(experience);
     }catch(err){
-        res.status(404).json({succes:false})
+        res.status(404).json({success:false})
     }
 });
 
